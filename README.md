@@ -1,3 +1,5 @@
+= Overview
+
 Reads shows from http://www.dischord.com//fugazi_live_series and
 creates a grid showing the songs in every show. The Makefile describes
 things but basically...
@@ -18,6 +20,6 @@ things but basically...
 
 	% uniq songs.txt | sort | python genHtml.py > fugaziLiveSeries.html
 	
-* Example
+= Example
 
 http://jeffpalm.com/fugaziLiveSeries.html
