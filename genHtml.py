@@ -33,14 +33,14 @@ def main(argv):
 
     print "<html>"
     print "<head>"
-    print "<link rel='stylesheet' type='text/css' href='fugazi.css' />"
+    print "<link rel='stylesheet' type='text/css' href='fugaziLiveSeries.css' />"
     print "</head>"
     print "<body>"
 
     print "<table>"
     print "<tr>"
         
-    print "<th class='c'>Show</th>"
+    print "<th class='c'>Show / Song</th>"
     
     for song in songs:
         print "<th class='d'><p class='dd'>%s</p></th>" % (song)
@@ -65,7 +65,7 @@ def main(argv):
 
     print "</table>"
     
-    print "<div>Source <a href='http://www.dischord.com/fugazi_live_series'>dischord.com/fugazi_live_series</a></div>"
+    print "<div><a href='http://www.dischord.com/fugazi_live_series'>Source</a> | <a href='https://github.com/spudtrooper/fugaziliveserives'>github</a></div>"
 
 if __name__ == '__main__':
     main(sys.argv)

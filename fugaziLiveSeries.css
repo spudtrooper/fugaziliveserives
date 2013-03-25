@@ -1,5 +1,5 @@
 body {font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size:.8em}
-.d {height:350px; max-width:20px;}
+.d {height:320px; max-width:20px;}
 .show {min-width:300px; background-color:#81A594}
 td,th {border: 1px solid black}
 td{background-color:#E6E6DC}

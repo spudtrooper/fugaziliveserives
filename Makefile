@@ -1,7 +1,7 @@
 all: fugaziLiveSeries.html
 
 songs.txt:
-	python fugaziLiveSongs.py >> $@
+	python fugaziLiveSongs.py > $@
 
 urls.txt:
 	python fugaziLiveUrls.py >> urls.txt
@@ -13,4 +13,4 @@ fugaziLiveSeries.html: songs.txt
 	uniq $< | sort | python genHtml.py > $@
 
 clean:
-	rm -f *~
+	rm -f *~ fugaziLiveSeries.html
