@@ -17,3 +17,7 @@ things but basically...
 - Create html file 'fugaziLiveSeries.html':
 
 	% uniq songs.txt | sort | python genHtml.py > fugaziLiveSeries.html
+	
+* Example
+
+http://jeffpalm.com/fugaziLiveSeries.html
