@@ -5,7 +5,7 @@ from fugaziLiveSeries import *
 """
 Reads from STDIN and outputs HTML.  Input is in the form:
 
-<url>|<song-1>|...|<song-2>
+<fileName>|<title>|<song-1>|...|<song-2>
 
 And should be created from fugaziLiveSongs.py
 
