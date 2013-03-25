@@ -15,7 +15,7 @@ things but basically...
 	
 - Create list of songs from downloaded files:
 
-	% python fugaziLiveSongs.py
+	% python fugaziLiveSongs.py > songs.txt
 	
 - Create html file 'fugaziLiveSeries.html':
 
