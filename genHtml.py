@@ -1,6 +1,4 @@
 import fileinput, sys
-from collections import OrderedDict
-from fugaziLiveSeries import *
 
 """
 Reads from STDIN and outputs HTML.  Input is in the form:
